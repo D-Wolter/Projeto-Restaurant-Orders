@@ -6,9 +6,9 @@ import csv
 # Req 3
 class MenuData:
     def __init__(self, source_path: str) -> None:
-        with open(source_path) as file:
+        with open(source_path, encoding="utf-8", newline='') as file:
             self.ingredients = set()
-            all_dishes = csv.DictReader(file)
+            all_dishes = csv.DictReader(file, delimiter=",", quotechar='"')
             recipes = {}
 
             for recipe in all_dishes:
@@ -18,7 +18,7 @@ class MenuData:
 
                 dish_name = recipe["dish"]
                 dish_price = float(recipe["price"])
-                
+
                 if dish_name not in recipes:
                     dish_instance = Dish(dish_name, dish_price)
                     recipes[dish_name] = dish_instance
