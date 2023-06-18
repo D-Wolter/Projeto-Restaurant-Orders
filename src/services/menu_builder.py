@@ -33,8 +33,6 @@ class MenuBuilder:
             restrictions = dish.get_restrictions()
             available = self.inventory.check_recipe_availability(dish.recipe)
 
-            print(self.inventory.check_recipe_availability(dish.recipe))
-
             if restriction not in restrictions or None and available:
                 dishes["dish_name"] = dish.name
                 dishes["ingredients"] = dish.get_ingredients()
