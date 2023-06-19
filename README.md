@@ -37,7 +37,7 @@
 
 * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 * ![pytest](https://img.shields.io/badge/pytest-3670A0?style=for-the-badge&logo=pytest&logoColor=ffdd54)
-* ![pandas](https://img.shields.io/badge/pandas-3670A0?style=for-the-badge&logo=pandas&logoColor=ffdd54)
+
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
@@ -111,6 +111,4 @@ O Python oferece um recurso chamado de ambiente virtual, onde permite sua máqui
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
-## Uso
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
