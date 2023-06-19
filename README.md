@@ -1,5 +1,7 @@
 # Boas-vindas ao repositório do Restaurant Orders!
 
+O Ultimo projeto do modulo de Ciência dos Dados da Trybe, com objetivo de aplicar os conceitos de POO e trabalhar com Set, Hashmap e Dict. Nesse projeto Python criei um programa onde de maneira simples gera cardápios considerando possíveis restrições alimentares e também a disponibilidade dos ingredientes em estoque.
+
 <details>
   <summary>Índice</summary>
   <ol>
