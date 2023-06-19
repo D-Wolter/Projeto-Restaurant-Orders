@@ -30,13 +30,14 @@ class MenuBuilder:
 
         for dish in self.menu_data.dishes:
             dishes = dict()
-            restrictions = dish.get_restrictions()
-            available = self.inventory.check_recipe_availability(dish.recipe)
+            restri = dish.get_restrictions()
+            availab = self.inventory.check_recipe_availability(dish.recipe)
 
-            if restriction not in restrictions or None and available:
+            if (restriction not in restri or restriction is None) and availab:
                 dishes["dish_name"] = dish.name
                 dishes["ingredients"] = dish.get_ingredients()
                 dishes["price"] = dish.price
                 dishes["restrictions"] = dish.get_restrictions()
                 new_menu.append(dishes)
         return new_menu
+    
